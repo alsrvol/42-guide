@@ -6,28 +6,40 @@
   <style>
     body {
       font-family: sans-serif;
-      text-align: center;
-      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
       background-color: #f9f9f9;
     }
+
     h1 {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
+      font-size: 28px;
     }
+
     .menu {
       display: flex;
       flex-direction: column;
-      gap: 20px;
-      max-width: 300px;
-      margin: 0 auto;
+      gap: 30px;
+      width: 80%;
+      max-width: 400px;
     }
+
     .menu a {
-      padding: 15px;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 600;
       background-color: #222;
       color: #fff;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 10px;
+      text-align: center;
       transition: background-color 0.3s;
     }
+
     .menu a:hover {
       background-color: #444;
     }
@@ -38,6 +50,9 @@
   <div class="menu">
     <a href="todo.html">오늘의 42’s To Do List</a>
     <a href="streaming-list.html">TRY WITH US 스밍리스트</a>
+    <a href="streaming-guide.html">음원 스트리밍 가이드</a>
+    <a href="download-guide.html">음원 다운로드 가이드</a>
+    <a href="vote-guide.html">투어스 미니 3집 활동 음악방송 투표 재화 가이드</a>
   </div>
 </body>
 </html>
