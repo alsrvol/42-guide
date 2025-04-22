@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>원클릭 바로가기</title>
+  <title>TRY WITH US 스밍리스트</title>
   <style>
     body {
       font-family: sans-serif;
@@ -12,16 +12,13 @@
       text-align: center;
     }
 
-    h2 {
-      font-size: 30px;
-      margin-bottom: 60px;
-    }
-
-    p {
-      font-size: 20px;
-      font-weight: 500;
+    .warning {
+      font-size: 18px;
+      font-weight: bold;
+      color: #cc0000;
       line-height: 1.6;
-      margin-bottom: 40px;
+      margin: 30px 0;
+      white-space: pre-line;
     }
 
     .button-link {
@@ -33,11 +30,19 @@
       color: #fff;
       text-decoration: none;
       border-radius: 12px;
+      margin: 30px 0;
       transition: background-color 0.3s;
     }
 
     .button-link:hover {
       background-color: #444;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     a.return {
@@ -52,11 +57,20 @@
   </style>
 </head>
 <body>
-  <h2>원클릭 바로가기</h2>
+  <h2>TRY WITH US 스밍리스트</h2>
 
-  <p>이 페이지에는 스밍리스트 전체를 한 번에 재생할 수 있는<br>원클릭 링크나 리스트를 추가할 수 있어요</p>
+  <div class="warning">
+    🔥 주의사항<br>
+    - 전체반복O, 랜덤재생X<br>
+    - 음소거X, 음질 AAC<br>
+    - 음량 2 이상, 중복 곡 허용<br>
+    - 재생바 건들지 않기(건드렸을 경우 처음부터 재생)
+  </div>
 
-  <a href="index.html" class="button-link">메인으로 돌아가기</a><br>
-  <a href="streaming-list.html" class="return">← 스밍리스트로</a>
+  <a href="shortcut.html" class="button-link">원클릭 바로가기</a>
+
+  <img src="assets/streamlist.JPG" alt="스밍리스트 이미지">
+
+  <a href="index.html" class="return">← 메인으로 돌아가기</a>
 </body>
 </html>
