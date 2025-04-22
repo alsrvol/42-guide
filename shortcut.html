@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>원클릭 바로가기</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 60px;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .menu a {
+      padding: 26px 28px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #000;
+      text-decoration: none;
+      border-radius: 12px;
+      text-align: center;
+      transition: opacity 0.3s;
+    }
+
+    .melon { background-color: #e9f5da; }
+    .genie { background-color: #e5f5f3; }
+    .bugs  { background-color: #f8f5cc; }
+    .vibe  { background-color: #fce5f2; }
+
+    .menu a:hover {
+      opacity: 0.85;
+    }
+
+    a.return {
+      display: inline-block;
+      margin-top: 50px;
+      text-decoration: none;
+      color: #444;
+      background: #eee;
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h2>원클릭 바로가기</h2>
+
+  <div class="menu">
+    <a href="melon.html" class="melon">멜론</a>
+    <a href="genie.html" class="genie">지니</a>
+    <a href="bugs.html" class="bugs">벅스</a>
+    <a href="vibe.html" class="vibe">바이브</a>
+  </div>
+
+  <a href="streaming-list.html" class="return">← 스밍리스트로 돌아가기</a>
+</body>
+</html>
